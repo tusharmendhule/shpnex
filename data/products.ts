@@ -1,3 +1,16 @@
+type Product = {
+  _id: string;
+  id?: string;
+  name: string;
+  price: number;
+  originalPrice?: number;
+  image: string;
+  rating: number;
+  reviews: number;
+  category: string;
+  description: string;
+  inStock: boolean;
+};
 export const mockProducts: Product[] = [
   {
     _id: '1',
