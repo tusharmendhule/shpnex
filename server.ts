@@ -20,10 +20,17 @@ async function startServer() {
   app.use(express.json());
   app.use(express.urlencoded({ extended: true }));
   app.use(cookieParser());
+  // app.use(cors({
+  //   origin: true,
+  //   credentials: true
+  // }));
   app.use(cors({
-    origin: true,
+    origin: [
+        "http://localhost:5173",
+        "https://your-project.vercel.app"
+    ],
     credentials: true
-  }));
+   }));
 
   // Mount API router
   app.use('/api', apiRouter);
