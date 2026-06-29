@@ -1,0 +1,6 @@
+{
+  "name": "ShpNex",
+  "description": "ShpNex is a production-ready, highly polished full-stack MERN e-commerce application featuring an elegant user dashboard, responsive shop, admin controls, and seamless mock/MongoDB Atlas backend.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
